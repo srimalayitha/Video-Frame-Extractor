@@ -1,0 +1,74 @@
+@import "~rc-slider/assets/index.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+
+}
+
+.container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 1000px;
+  background-color: #121212;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 75%; 
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slider {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0b0b0b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.range-input {
+  width: 100%;
+  background: linear-gradient(to right, #0c0c0c 0%, #0d0d0e 100%); 
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+.range-input::-webkit-slider-thumb {
+  width: 20px; 
+  height: 20px; 
+  background: #090808; 
+  border: none;
+  border-radius: 50%; 
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); 
+  cursor: pointer;
+}
